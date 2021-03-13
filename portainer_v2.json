@@ -80,7 +80,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/FreqTrade",
+					"bind": "/portainer/Files/AppData/Config/FreqTrade/user_data",
 					"container": "/user_data"
 				}
 			]
