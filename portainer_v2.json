@@ -61,6 +61,30 @@
 				}
 			]
 		},
+				{
+			"categories": [
+				"Bitcoin",
+				"Crypto"
+			],
+			"description": "FreqTrade",
+			"image": "freqtradeorg/freqtrade",
+			"logo": "https://www.freqtrade.io/en/latest/images/logo.png",
+			"name": "FreqTrade",
+			"note": "FreqTrade",
+			"platform": "linux",
+			"ports": [
+			
+			],
+			"restart_policy": "unless-stopped",
+			"title": "FreqTrade",
+			"type": 1,
+			"volumes": [
+				{
+					"bind": "/portainer/Files/AppData/Config/FreqTrade",
+					"container": "/user_data"
+				}
+			]
+		},
 		{
 			"categories": [
 				"Other",
